@@ -1,0 +1,10 @@
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: #eaeaea;
+    
+}
+type:button {
+    width: auto;
+}
