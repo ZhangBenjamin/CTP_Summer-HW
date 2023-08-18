@@ -1,10 +1,85 @@
-
 * {
     font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    background-color: #eaeaea;
+    box-sizing: border-box;
+    /*background-color: #eaeaea;*/
     
 }
-type:button {
+
+body {
+  background-image: url("images/background.jpeg");
+}
+
+#aboutme {
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+
+p, pre{
+    font-size: 1.25vw;
+}
+role:button {
     width: auto;
 }
+img {
+    
+    padding: 5px;
+    
+    max-width: 15%;
+    height: auto;
+  
+}
+.col-md-4 {
+  text-align: left;
+	max-width: 100%;
+}
+
+  .text {
+    color: black;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+  div {
+    position: relative;
+  }
+  div img {
+    display: flex;
+    width: 350px;
+    margin: auto;
+  }
+  p.caption {
+    position: relative;
+    opacity: 0;
+    transition: opacity .3s;
+    text-align: center;
+  }
+  
+  div img:hover {
+    border: 1px solid #777;
+  }
+  div img:hover + p.caption {
+    opacity: 1;
+    
+  }
+
+.container {
+  width: 100%;
+  background-color: #e0e0e0;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {width: 65%; background-color: gray;}
+.css {width: 40%; background-color: gray;}
+.js {width: 30%; background-color: gray;}
+.cplusplus {width: 70%; background-color: #808080;}
+.c {width: 50%; background-color: #808080;}
+.python {width: 55%; background-color: #808080;}
+
+
