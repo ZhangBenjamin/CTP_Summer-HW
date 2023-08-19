@@ -9,7 +9,7 @@ body {
   background-image: url("images/background.jpeg");
 }
 
-#aboutme {
+#aboutme, #skills{
     padding-left: 10%;
     padding-right: 10%;
     
@@ -22,10 +22,8 @@ role:button {
     width: auto;
 }
 img {
-    
     padding: 5px;
-    
-    max-width: 15%;
+    max-width: 30%;
     height: auto;
   
 }
